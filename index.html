@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="st.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <!-- NAV BAR -->
+            <nav>
+                <div class="logo"> Portfolio</div>
+                <ul id="sidemenu">
+                    <li> <a href="#header">HOME</a> </li>
+                    <li> <a href="#About">ABOUT</a> </li>
+                    <li> <a href="#Portfolio">PROJECTS</a> </li>
+                    <!-- <li> <a href="#Portfolio">PORTFOLIO</a> </li> -->
+                    <li> <a href="#Contact">CONTACT</a> </li>
+                    <i class="bi bi-x-lg" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="bi bi-list" onclick="openmenu()"></i>
+            </nav>
+
+            <section class="hero" id="home">
+                <div class="content">
+                    <h2>Hi, Myself</h2>
+                    <h1>Akhil Tamgaonkar</h1>
+                    <h3>I'm a <span class="highlight">Software Developer</span></h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="https://x.com/AkhilTamgaonkar"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://github.com/Akhil054"><i class="bi bi-github"></i></i></a>
+                        <a href="https://www.linkedin.com/in/akhil-tamgaonkar-100096192/"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="profile-picture">
+                    <img src="assests/me1 (1).jpg" alt="Profile Picture">
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+<!-- ----------------About---------------- -->
+
+    <div id="About">
+        <div class="container">
+            <!-- IMAGE & THERE SECTION OF PP -->
+            <div class="row">
+                <div class="About-col-1">
+                    <img src = "assests/abttmee.jpeg">
+                </div>
+
+                <div class="About-col-2">
+                    <h1 class="sub-title"> About ME </h1>
+
+                    <p>Hi, I'm Akhil Tamgaonkar, a Software Developer and photography & videography enthusiast.
+                        I hold a B.Tech in CSE (AIML) from KITCOEK, Kolhapur. I'm skilled in HTML, CSS, JavaScript, 
+                        Java , Python with a passion for creating impactful software and expressing creativity through my lens. 
+                        I'm a quick learner and a team player, always eager to take on new challenges.
+                    </p>
+
+                    <!-- About me sections -->
+                    <!-- IT content all tab sec -->
+                    <div class="tab-title">
+                        <P class="tab-links active-link" onclick="opentab('Skills')"> Skills</P>
+                        <P class="tab-links" onclick="opentab('Experience')">Experience </P>
+                        <P class="tab-links" onclick="opentab('Education')">Education </P>
+                    </div>
+
+                    <!-- Content all tab info's-->
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Languages</span><br>Python, Java, HTML + CSS , JS</li>
+                            <li><span>Tools</span><br>Tableu, PowerBI, Photoshop</li>
+                            <li><span>Area of Intrest</span><br>Web Design, Videography & Photography</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Web Development Internship</span><br>Talent-Battle</li>
+                            <li><span>AWS Cloud Virtual Internship </span><br>AICTE-Edu Skillls</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2021 - 25</span><br>KITCOEK, Kolhapur</li>
+                            <li><span>2019 - 21</span><br>DYP Shantiniketan Jr. College Kolhapur </li>
+                            <li><span>2019</span><br>Rosary English School, Malvan</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------------------Workshops & Certification --------------------------------- -->
+    <div id="WC">
+        <div class="container">
+            <h1 class="sub-title"> WorkShops & Certification</h1>
+            <div class="WClist">
+                <div>
+                    <h2> Talent Battle </h2>
+                    <p>Worked as FrontEnd Developer & backend </p>
+                    <a href="https://drive.google.com/drive/u/0/folders/1YnFhHsOhrYUnaPg-zKUb3M9ubVCPlf1c"> Display</a>
+                </div>
+
+                <div>
+                    <h2>Data Analytics & Visulization</h2>
+                    <p>Web development is the work involved in developing a website for the Internet </p>
+                    <a href="https://drive.google.com/file/d/1grLVAO6LBLkfMPrxLdp_Mi2uPdX0Bh-S/view?usp=drive_link">Display</a>
+                </div>
+
+                <div>
+                    <h2> Google Digital Marketing  </h2>
+                    <p> Gives an overview on Marketing Strategies & Analysis </p>
+                    <a href="https://drive.google.com/drive/u/0/folders/1YnFhHsOhrYUnaPg-zKUb3M9ubVCPlf1c"> Display</a>
+                </div>
+
+                <div>
+                    <h2> Tech Fest </h2>
+                    <p>3 Days ML Workshop at IIT Bombay  </p>
+                    <a href="https://drive.google.com/file/d/1UiBrREIQUOWkk7fd6D8gJJ7S_Qm5PG-t/view?usp=drive_link"> Display</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="pos">
+        <div class="tpos">
+            <div>
+                <h1>
+                    Positions  
+                </h1>
+                <BR>
+                <h2>
+                    Organised & Hosted INVICTA 2K23-24
+                    <br>
+                    Organised & Hosted BODHANTRA - 24 (Lecture on Metaverse)
+                    <br>
+                    Organised & Hosted BODHANTRA - 23 (Lecture on Google Cloud)
+                </h2>
+            </div>
+        </div>
+    </div>
+
+<!-- ----------------------------Portfolio ---------------------------------------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects </h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="assests/portfolio.png">
+                    <div class="layer">
+                        <h3>Portfolio </h3>
+                       <!-- <p> Give you an overview of my work & myslef</p> -->
+                        <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                          </svg>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="assests/budget.jpg">
+                    <div class="layer">
+                        <h3>Expenses Tracker</h3>
+                        <!-- <p> Python application helps to manage expences</p> -->
+                        <a href="https://github.com/Akhil054/Expenses_tracker"><i class="bi bi-box-arrow-up-right"></i></a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                          </svg>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="assests/ai arm.jpg">
+                    <div class="layer">
+                        <h3>AI - ARM </h3>
+                        <!--<p> AI ARM is an virtual Arm helps the disable people to do basic need of life </p> -->
+                        <a href="https://drive.google.com/drive/u/0/folders/1Ikl3eLvgs2qREmU6LnNIidUExD9bNPiY"><i class="bi bi-box-arrow-up-right"></i></a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                          </svg>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="assests/spam snap.png">
+                    <div class="layer">
+                        <h3>Spam Snap</h3>
+                        <!-- <p> Android Application </p> -->
+                        <a href="https://github.com/OmNagvekar/SpamSnap"><i class="bi bi-box-arrow-up-right"></i></a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                          </svg>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="assests/Banner .jpg">
+                    <div class="layer">
+                        <h3>INVICTA 2.0</h3>
+                        <!-- <p>An userfriendly Website for registration & upcoming webiste</p> -->
+                        <a href="https://github.com/Akhil054/INVICTA.git"><i class="bi bi-box-arrow-up-right"></i></a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                          </svg>
+                    </div>
+                </div>
+                
+
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!-- ---------------------- Contact------------------------------------->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="bi bi-envelope-fill"></i> akhil.tamgaonkar@gmail.com</p>
+                    <p> <i class="bi bi-telephone"></i> 9921821468</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/akhil-tamgaonkar-100096192/"><i class="bi bi-linkedin"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href="https://x.com/AkhilTamgaonkar"><i class="bi bi-twitter-x"></i></a>
+                    </div>
+                    <a href="_RESUME__AKHIL-TAMGAONKAR.pdf" download  class="dwn"> Download Resume</a>
+
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name ="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit </button>
+                    </form>
+                    <span id="msg"> Hello</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="bi bi-c-circle"></i>  Akhil Tamgaonkar. All rights reserved
+        </div>
+    </div>
+
+
+<!-- JS Logic & Onclick Tab code-->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxuefgcbmL0lWa1pb_Ltpxh5IME2MD3YPOyDYZeKTF50fMU5WWsMxOj7K-qu7LjfGZq/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = 'Message Sent Successfully'
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+</body>
+</html>
